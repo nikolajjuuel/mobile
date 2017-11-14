@@ -123,14 +123,15 @@ li {
   background-color: #FFC4BA; }
 
 .container1 {
-  background-color: orange;
+  background-color: tomato;
   padding-top: 70px; }
 
 .container2 {
-  padding-top: 100px; }
+  padding-top: 100px;
+  background-color: tomato; }
 
 .container3 {
-  padding-top: 77px; }
+  padding-top: 72px; }
 
 .words {
   padding-left: 50px;
@@ -213,34 +214,36 @@ li {
     padding-left: 60px; }
 
 .nav1 {
-  padding-right: 100px;
-  padding-top: 4px;
+  padding-top: 15px;
   padding-bottom: 4px;
   color: white;
   display: flex;
-  background-color: tomato; }
+  position: absolute;
+  top: 80px;
+  padding-right: 40px;
+  right: 0;
+  z-index: 1; }
   .nav1 a {
-    color: #D9391C;
+    color: black;
+    font-weight: bold;
     text-decoration: none; }
 
-.resume1 {
-  height: 60px;
-  width: 60px;
-  margin-top: 10px;
+.home1 {
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white; }
-  .resume1 li {
+  .home1 li {
     margin-top: 1px;
-    font-size: 15px; }
+    font-size: 30px; }
 
 .blog1 {
-  height: 60px;
-  width: 60px;
-  margin-top: 10px;
+  height: 120px;
+  width: 120px;
   margin-left: 50px;
   margin-right: 50px;
   border-radius: 50%;
@@ -251,12 +254,11 @@ li {
   background-color: white; }
   .blog1 li {
     margin-top: 1px;
-    font-size: 15px; }
+    font-size: 30px; }
 
 .contact1 {
-  height: 60px;
-  width: 60px;
-  margin-top: 10px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -265,32 +267,52 @@ li {
   background-color: white; }
   .contact1 li {
     margin-top: 1px;
-    font-size: 15px; }
+    font-size: 30px; }
 
 .subject {
   font-size: 20px;
-  background-color: tomato;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  background-color: #FFC4BA;
   color: white;
   width: 100%; }
   .subject h1 {
     text-transform: capitalize;
+    font-family: 'Ovo', serif;
     font-weight: bold;
     font-style: italic;
     padding-left: 60px; }
 
-.summary {
-  background-color: #FFC4BA; }
+.summary li {
+  text-align: left;
+  font-family: 'Muli', sans-serif; }
 
-.experience {
-  background-color: #FFC4BA; }
+.experience h2 {
+  font-size: 25px;
+  font-family: "Ovo", sans-serif; }
+.experience li {
+  text-align: left;
+  font-family: 'Muli', sans-serif; }
 
-.education {
-  background-color: #FFC4BA; }
+.education h2 {
+  font-size: 25px;
+  font-family: "Ovo", sans-serif; }
+.education li {
+  text-align: left;
+  font-family: 'Muli', sans-serif; }
 
-.volunteer {
-  background-color: #FFC4BA; }
+.volunteer h2 {
+  font-size: 25px;
+  font-family: "Ovo", sans-serif; }
+.volunteer li {
+  text-align: left;
+  font-family: 'Muli', sans-serif; }
 
-.skills {
-  background-color: #FFC4BA; }
+.skills h2 {
+  font-size: 25px;
+  font-family: "Ovo", sans-serif; }
+.skills li {
+  text-align: left;
+  font-family: 'Muli', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
