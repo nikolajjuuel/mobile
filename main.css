@@ -133,6 +133,10 @@ li {
 .container3 {
   padding-top: 72px; }
 
+.container4 {
+  background-color: #FFC4BA;
+  height: 160px; }
+
 .words {
   padding-left: 50px;
   padding-right: 50px;
@@ -279,7 +283,7 @@ li {
   .subject h1 {
     text-transform: capitalize;
     font-family: 'Ovo', serif;
-    font-weight: bold;
+    font-weight: bolder;
     font-style: italic;
     padding-left: 60px; }
 
