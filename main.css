@@ -212,6 +212,11 @@ li {
   background-color: tomato;
   color: white;
   width: 100%; }
+  .subject h1 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 60px; }
 
 .summary {
   background-color: #FFC4BA; }
