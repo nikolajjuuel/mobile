@@ -95,12 +95,13 @@ li {
 
 .followtext {
   padding-top: 8px;
-  padding-left: 0px;
+  padding-left: 60px;
+  padding-right: 100px;
   font-size: 55px;
   background-color: tomato;
   text-align: left;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between; }
   .followtext h2 {
     font-style: italic;
     font-weight: bold; }
@@ -195,17 +196,72 @@ li {
 
 .introresume {
   font-size: 20px;
-  padding-bottom: 3px;
   background-color: tomato;
   color: white;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
   .introresume h1 {
     font-style: oblique;
     font-weight: bold;
     font-size: 65px;
     padding-top: 8px;
     padding-left: 60px; }
+
+.nav1 {
+  padding-right: 100px;
+  padding-top: 8px;
+  color: white;
+  display: flex;
+  background-color: tomato; }
+  .nav1 a {
+    color: #D9391C;
+    text-decoration: none; }
+
+.resume1 {
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white; }
+  .resume1 li {
+    margin-top: 1px;
+    font-size: 15px; }
+
+.blog1 {
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white; }
+  .blog1 li {
+    margin-top: 1px;
+    font-size: 15px; }
+
+.contact1 {
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white; }
+  .contact1 li {
+    margin-top: 1px;
+    font-size: 15px; }
 
 .subject {
   font-size: 20px;
