@@ -129,6 +129,9 @@ li {
 .container2 {
   padding-top: 100px; }
 
+.container3 {
+  padding-top: 77px; }
+
 .words {
   padding-left: 50px;
   padding-right: 50px;
@@ -211,7 +214,8 @@ li {
 
 .nav1 {
   padding-right: 100px;
-  padding-top: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   color: white;
   display: flex;
   background-color: tomato; }
