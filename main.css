@@ -22,6 +22,9 @@ header {
   justify-content: center;
   align-items: center;
   z-index: 1; }
+  header a {
+    text-decoration: none;
+    color: black; }
 
 footer {
   background: #8C1500;
@@ -123,7 +126,7 @@ li {
   padding-top: 70px; }
 
 .container2 {
-  padding-top: 90px; }
+  padding-top: 100px; }
 
 .words {
   padding-left: 50px;
@@ -192,6 +195,7 @@ li {
 
 .introresume {
   font-size: 20px;
+  padding-bottom: 3px;
   background-color: tomato;
   color: white;
   position: fixed;
@@ -202,5 +206,26 @@ li {
     font-size: 65px;
     padding-top: 8px;
     padding-left: 60px; }
+
+.subject {
+  font-size: 20px;
+  background-color: tomato;
+  color: white;
+  width: 100%; }
+
+.summary {
+  background-color: #FFC4BA; }
+
+.experience {
+  background-color: #FFC4BA; }
+
+.education {
+  background-color: #FFC4BA; }
+
+.volunteer {
+  background-color: #FFC4BA; }
+
+.skills {
+  background-color: #FFC4BA; }
 
 /*# sourceMappingURL=main.css.map */
