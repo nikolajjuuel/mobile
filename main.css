@@ -321,12 +321,12 @@ li {
     font-weight: bolder;
     padding-left: 60px; }
 
-.summary {
+.opacity {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
   position: relative; }
-  .summary li {
+  .opacity li {
     font-size: 30px;
     font-family: 'Libre Baskerville', serif;
     padding-top: 20px;
@@ -340,12 +340,11 @@ li {
     color: black;
     top: 0;
     background-color: white;
-    opacity: .6;
+    opacity: .8;
     text-align: left; }
 
 .back img {
   width: 100%;
-  background-image: url("images/capilno.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
