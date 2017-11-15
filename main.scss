@@ -180,7 +180,8 @@ $a-tags-hover: 'a:active, a:hover';
 
 .container4 {
   background-color: #FFC4BA;
-  height: 160px;
+  //height: 160px;
+  height: 800px;
 
 }
 
@@ -375,7 +376,6 @@ width: 100%;
   h1 {
     text-transform: capitalize;
     font-family: 'Ovo', serif;
-    font-weight: bolder;
     font-style: italic;
     padding-left: 60px;
 
@@ -438,8 +438,62 @@ width: 100%;
 
 
 .map {
+  position: absolute;
+  top: 260px;
+  right: 60px;
+}
+
+
+
+///contact styling
+
+.phone {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: tomato;
 
 }
+
+.mail {
+  background: tomato;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: tomato;
+  left: 200px;
+
+}
+
+.contacticon {
+  padding-top: 100px;
+  padding-left: 60px;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column;
+    li {
+      font-size: 40px;
+      color: white;
+    }
+
+    p{
+      font-size: 20px;
+      font-style: italic;
+      font-weight: bold;
+      padding-top: 5px;
+      padding-bottom: 10px;
+   }
+
+}
+
+.phone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 ///tablet
 @media screen and (min-width:600px) {
