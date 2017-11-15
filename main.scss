@@ -43,6 +43,12 @@ $a-tags-hover: 'a:active, a:hover';
       background: #8C1500;
       color: white;
       text-align: center;
+      height: 200px;
+
+        p {
+          padding-top: 20px;
+          font-size: 30px;
+        }
     }
 
     body {
@@ -126,6 +132,7 @@ $a-tags-hover: 'a:active, a:hover';
 
 .follow {
   background-color: white;
+  margin-bottom: 8px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -566,6 +573,19 @@ width: 100%;
     li {
       font-size: 40px;
       color: tomato;
+    }
+}
+
+.contactfoot {
+
+  background: #8C1500;
+  color: white;
+  text-align: center;
+  height: 100px;
+
+    p {
+      padding-top: 30px;
+      font-size: 30px;
     }
 }
 
