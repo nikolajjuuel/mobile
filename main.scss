@@ -476,11 +476,16 @@ width: 100%;
   display: flex;
   align-items: flex-start;
   flex-flow: column;
-    li {
+    a {
+      text-decoration: none;
       font-size: 40px;
       color: white;
     }
 
+    li {
+      font-size: 40px;
+      color: white;
+    }
     p{
       font-size: 20px;
       font-style: italic;

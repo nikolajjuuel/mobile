@@ -347,6 +347,10 @@ li {
   display: flex;
   align-items: flex-start;
   flex-flow: column; }
+  .contacticon a {
+    text-decoration: none;
+    font-size: 40px;
+    color: white; }
   .contacticon li {
     font-size: 40px;
     color: white; }
