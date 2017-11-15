@@ -1,10 +1,10 @@
 nav {
   color: white;
-  font-size: 45px;
+  font-size: 55px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #D0D3C5; }
+  background-color: #f4f2e9; }
   nav a {
     color: white;
     text-decoration: none; }
@@ -28,12 +28,16 @@ header {
 
 footer {
   background: #032B2F;
+  height: 200px;
   color: white;
   text-align: center;
-  height: 200px; }
+  position: relative; }
   footer p {
-    padding-top: 20px;
-    font-size: 30px; }
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 250px; }
 
 li {
   display: block;
@@ -56,8 +60,8 @@ li {
     padding-left: 55px; }
 
 .resume {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 50%;
@@ -70,8 +74,8 @@ li {
     margin-top: 3px; }
 
 .contact {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 50%;
@@ -84,8 +88,8 @@ li {
     margin-top: 3px; }
 
 .blog {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 50%;
@@ -99,7 +103,6 @@ li {
 
 .follow {
   background-color: white;
-  margin-bottom: 8px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -110,7 +113,8 @@ li {
 
 .follow1 {
   display: flex;
-  flex-flow: row; }
+  flex-flow: row;
+  margin-bottom: 8px; }
   .follow1 a {
     text-decoration: none;
     font-size: 50px;
@@ -134,7 +138,7 @@ li {
   padding-right: 50px;
   padding-bottom: 25px;
   padding-left: 50px;
-  background-color: #D0D3C5;
+  background-color: #f4f2e9;
   display: flex;
   justify-content: center; }
   .circleimg img {
@@ -143,7 +147,7 @@ li {
     border-radius: 50%; }
 
 .container {
-  background-color: #D0D3C5; }
+  background-color: #f4f2e9; }
 
 .container1 {
   background-color: #D0D3C5;
@@ -174,7 +178,6 @@ li {
   padding-bottom: 8px; }
 
 .circle1 {
-  background-color: #3b5998;
   border-radius: 50%;
   height: 80px;
   width: 80px;
@@ -302,7 +305,7 @@ li {
   font-size: 20px;
   padding-top: 15px;
   padding-bottom: 20px;
-  background-color: tomato;
+  background-color: #90d2f5;
   color: white;
   width: 100%; }
   .subject a {
@@ -313,14 +316,75 @@ li {
     font-size: 60px;
     color: white; }
   .subject h1 {
-    text-transform: capitalize;
-    font-family: 'Ovo', serif;
-    font-style: italic;
+    font-size: 40px;
+    font-family: 'Nixie One', cursive;
+    font-weight: bolder;
     padding-left: 60px; }
 
-.summary li {
-  text-align: left;
-  font-family: 'Muli', sans-serif; }
+.summary {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  position: relative; }
+  .summary li {
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    color: black;
+    top: 0;
+    background-color: white;
+    opacity: .6;
+    text-align: left; }
+
+.back img {
+  width: 100%;
+  background-image: url("images/tower.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.content {
+  position: absolute;
+  top: 10%; }
+  .content li {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold; }
+
+.content2 {
+  position: absolute;
+  top: 30%; }
+  .content2 li {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold; }
+
+.content3 {
+  position: absolute;
+  top: 50%; }
+  .content3 li {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold; }
+
+.content4 {
+  position: absolute;
+  top: 70%; }
+  .content4 li {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold; }
 
 .experience h2 {
   font-size: 25px;

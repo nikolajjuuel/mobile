@@ -1,16 +1,18 @@
 $a-tags: 'a, a:active, a:hover, a:visited';
 $a-tags-hover: 'a:active, a:hover';
-
+$light: #f4f2e9;
+$medium: #08708A;
+$dark: #032B2F;
 
 
 ///phone
     nav {
       color: white;
-      font-size: 45px;
+      font-size: 55px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      background-color: #D0D3C5;
+      background-color: $light;
         a{
           color: white;
           text-decoration: none;
@@ -41,14 +43,18 @@ $a-tags-hover: 'a:active, a:hover';
     }
 
     footer {
-      background: #032B2F;
+      background: $dark;
+      height: 200px;
       color: white;
       text-align: center;
-      height: 200px;
+      position: relative;
 
-        p {
-          padding-top: 20px;
-          font-size: 30px;
+        p{
+        font-size: 30px;
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        left: 250px;
         }
     }
 
@@ -63,7 +69,7 @@ $a-tags-hover: 'a:active, a:hover';
 
 .intro {
   font-size: 20px;
-  background-color: #08708A;
+  background-color: $medium;
   color: white;
   position: fixed;
   width: 100%;
@@ -83,8 +89,8 @@ $a-tags-hover: 'a:active, a:hover';
     }
 }
 .resume {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 50%;
@@ -99,8 +105,8 @@ $a-tags-hover: 'a:active, a:hover';
   }
 }
 .contact {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 50%;
@@ -115,8 +121,8 @@ $a-tags-hover: 'a:active, a:hover';
   }
 }
 .blog {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 50%;
@@ -133,7 +139,6 @@ $a-tags-hover: 'a:active, a:hover';
 
 .follow {
   background-color: white;
-  margin-bottom: 8px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -147,6 +152,7 @@ $a-tags-hover: 'a:active, a:hover';
 .follow1 {
   display: flex;
   flex-flow: row;
+  margin-bottom: 8px;
 
   a{
     text-decoration: none;
@@ -181,7 +187,7 @@ $a-tags-hover: 'a:active, a:hover';
   padding-right: 50px;
   padding-bottom: 25px;
   padding-left: 50px;
-  background-color: #D0D3C5;
+  background-color: $light;
   display: flex;
   justify-content: center;
 
@@ -194,7 +200,7 @@ $a-tags-hover: 'a:active, a:hover';
 }
 
 .container {
-  background-color: #D0D3C5;
+  background-color: $light;
 }
 
 .container1 {
@@ -240,7 +246,6 @@ $a-tags-hover: 'a:active, a:hover';
 }
 
 .circle1 {
-  background-color: #3b5998;
   border-radius: 50%;
   height: 80px;
   width: 80px;
@@ -408,7 +413,7 @@ $a-tags-hover: 'a:active, a:hover';
 font-size: 20px;
 padding-top: 15px;
 padding-bottom: 20px;
-background-color: tomato;
+background-color: #90d2f5;
 color: white;
 width: 100%;
   a{
@@ -424,9 +429,9 @@ width: 100%;
   }
 
   h1 {
-    text-transform: capitalize;
-    font-family: 'Ovo', serif;
-    font-style: italic;
+    font-size: 40px;
+    font-family: 'Nixie One', cursive;
+    font-weight: bolder;
     padding-left: 60px;
 
   }
@@ -434,11 +439,96 @@ width: 100%;
 }
 
 .summary {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  position: relative;
+
+
+
     li{
+      font-size: 30px;
+      font-family: 'Libre Baskerville', serif;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      margin-top: 5%;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 1%;
+      color: black;
+      top: 0;
+      background-color: white;
+      opacity: .6;
       text-align: left;
-      font-family: 'Muli', sans-serif;
     }
+
 }
+.back {
+  img {
+    width: 100%;
+    background-image: url("images/tower.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+}
+.content {
+  position: absolute;
+  top: 10%;
+
+  li{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+
+  }
+}
+
+
+.content2{
+  position: absolute;
+  top: 30%;
+
+  li{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+  }
+
+}
+.content3{
+  position: absolute;
+  top: 50%;
+
+  li{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+
+  }
+
+}
+
+.content4{
+  position: absolute;
+  top: 70%;
+
+  li{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+
+  }
+
+}
+
 
 .experience {
 
