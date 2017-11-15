@@ -93,14 +93,22 @@ li {
   .blog li {
     margin-top: 3px; }
 
-.follow1 {
-  height: 80px;
-  width: 80px;
+.follow {
+  background-color: white;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
-  background-color: orange; }
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.follow1 {
+  display: flex;
+  flex-flow: row; }
   .follow1 a {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 50px;
     color: tomato; }
 
 .followtext {
@@ -111,7 +119,6 @@ li {
   background-color: tomato;
   text-align: left;
   display: flex;
-  flex-direction: row;
   justify-content: space-between; }
   .followtext h2 {
     font-style: italic;
@@ -152,6 +159,8 @@ li {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 16px; }
+  .words p {
+    font-size: 25px; }
 
 .buttons {
   display: flex;

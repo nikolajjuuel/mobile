@@ -124,15 +124,27 @@ $a-tags-hover: 'a:active, a:hover';
     }
 }
 
-.follow1 {
-  height: 80px;
-  width: 80px;
+.follow {
+  background-color: white;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
-  background-color: orange;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.follow1 {
+  display: flex;
+  flex-flow: row;
+
   a{
     text-decoration: none;
-    font-size: 40px;
+    font-size: 50px;
     color: tomato;
+
   }
 }
 
@@ -145,7 +157,6 @@ $a-tags-hover: 'a:active, a:hover';
   background-color: tomato;
   text-align: left;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
    h2{
       font-style: italic;
@@ -204,6 +215,10 @@ $a-tags-hover: 'a:active, a:hover';
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 16px;
+
+    p{
+      font-size: 25px;
+    }
 }
 
 
