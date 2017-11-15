@@ -4,7 +4,7 @@ nav {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #FFC4BA; }
+  background-color: #D0D3C5; }
   nav a {
     color: white;
     text-decoration: none; }
@@ -27,7 +27,7 @@ header {
     color: black; }
 
 footer {
-  background: #8C1500;
+  background: #032B2F;
   color: white;
   text-align: center;
   height: 200px; }
@@ -41,7 +41,7 @@ li {
 
 .intro {
   font-size: 20px;
-  background-color: tomato;
+  background-color: #08708A;
   color: white;
   position: fixed;
   width: 100%; }
@@ -65,7 +65,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: tomato; }
+  background-color: #08708A; }
   .resume li {
     margin-top: 3px; }
 
@@ -79,7 +79,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: tomato; }
+  background-color: #08708A; }
   .contact li {
     margin-top: 3px; }
 
@@ -93,7 +93,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: tomato; }
+  background-color: #08708A; }
   .blog li {
     margin-top: 3px; }
 
@@ -114,14 +114,14 @@ li {
   .follow1 a {
     text-decoration: none;
     font-size: 50px;
-    color: tomato; }
+    color: #08708A; }
 
 .followtext {
   padding-top: 8px;
   padding-left: 60px;
   padding-right: 100px;
   font-size: 55px;
-  background-color: tomato;
+  background-color: #08708A;
   text-align: left;
   display: flex;
   justify-content: space-between; }
@@ -134,7 +134,7 @@ li {
   padding-right: 50px;
   padding-bottom: 25px;
   padding-left: 50px;
-  background-color: #FFC4BA;
+  background-color: #D0D3C5;
   display: flex;
   justify-content: center; }
   .circleimg img {
@@ -143,21 +143,21 @@ li {
     border-radius: 50%; }
 
 .container {
-  background-color: #FFC4BA; }
+  background-color: #D0D3C5; }
 
 .container1 {
-  background-color: tomato;
+  background-color: #D0D3C5;
   padding-top: 70px; }
 
 .container2 {
   padding-top: 100px;
-  background-color: tomato; }
+  background-color: #08708A; }
 
 .container3 {
   padding-top: 72px; }
 
 .container4 {
-  background-color: #FFC4BA;
+  background-color: #D0D3C5;
   height: 800px; }
 
 .words {
@@ -229,7 +229,7 @@ li {
 
 .introresume {
   font-size: 20px;
-  background-color: tomato;
+  background-color: #08708A;
   color: white;
   position: fixed;
   width: 100%;
@@ -302,7 +302,7 @@ li {
   font-size: 20px;
   padding-top: 15px;
   padding-bottom: 20px;
-  background-color: #FFC4BA;
+  background-color: tomato;
   color: white;
   width: 100%; }
   .subject a {
@@ -359,18 +359,18 @@ li {
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: #08708A;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
 
 .mail {
-  background: tomato;
+  background: #08708A;
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: #08708A;
   left: 200px; }
 
 .contacticon {
@@ -397,7 +397,7 @@ li {
   display: flex;
   align-items: center; }
   .locationflow h1 {
-    color: tomato;
+    color: #08708A;
     font-style: oblique;
     font-weight: bold;
     font-size: 50px;
@@ -415,10 +415,10 @@ li {
   align-items: center; }
   .location li {
     font-size: 40px;
-    color: tomato; }
+    color: #08708A; }
 
 .contactfoot {
-  background: #8C1500;
+  background: #032B2F;
   color: white;
   text-align: center;
   height: 100px; }

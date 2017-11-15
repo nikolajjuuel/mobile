@@ -2,6 +2,7 @@ $a-tags: 'a, a:active, a:hover, a:visited';
 $a-tags-hover: 'a:active, a:hover';
 
 
+
 ///phone
     nav {
       color: white;
@@ -9,7 +10,7 @@ $a-tags-hover: 'a:active, a:hover';
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      background-color: #FFC4BA;
+      background-color: #D0D3C5;
         a{
           color: white;
           text-decoration: none;
@@ -40,7 +41,7 @@ $a-tags-hover: 'a:active, a:hover';
     }
 
     footer {
-      background: #8C1500;
+      background: #032B2F;
       color: white;
       text-align: center;
       height: 200px;
@@ -62,7 +63,7 @@ $a-tags-hover: 'a:active, a:hover';
 
 .intro {
   font-size: 20px;
-  background-color: tomato;
+  background-color: #08708A;
   color: white;
   position: fixed;
   width: 100%;
@@ -91,7 +92,7 @@ $a-tags-hover: 'a:active, a:hover';
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: tomato;
+  background-color: #08708A;
 
   li{
     margin-top: 3px;
@@ -107,7 +108,7 @@ $a-tags-hover: 'a:active, a:hover';
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: tomato;
+  background-color: #08708A;
 
   li{
     margin-top: 3px;
@@ -123,7 +124,7 @@ $a-tags-hover: 'a:active, a:hover';
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: tomato;
+  background-color: #08708A;
 
     li{
       margin-top: 3px;
@@ -150,7 +151,7 @@ $a-tags-hover: 'a:active, a:hover';
   a{
     text-decoration: none;
     font-size: 50px;
-    color: tomato;
+    color: #08708A;
 
   }
 }
@@ -161,7 +162,7 @@ $a-tags-hover: 'a:active, a:hover';
   padding-left: 60px;
   padding-right: 100px;
   font-size: 55px;
-  background-color: tomato;
+  background-color: #08708A;
   text-align: left;
   display: flex;
   justify-content: space-between;
@@ -180,7 +181,7 @@ $a-tags-hover: 'a:active, a:hover';
   padding-right: 50px;
   padding-bottom: 25px;
   padding-left: 50px;
-  background-color: #FFC4BA;
+  background-color: #D0D3C5;
   display: flex;
   justify-content: center;
 
@@ -193,17 +194,17 @@ $a-tags-hover: 'a:active, a:hover';
 }
 
 .container {
-  background-color: #FFC4BA;
+  background-color: #D0D3C5;
 }
 
 .container1 {
-  background-color: tomato;
+  background-color: #D0D3C5;
   padding-top: 70px;
 }
 
 .container2 {
   padding-top: 100px;
-  background-color: tomato;
+  background-color: #08708A;
 
 }
 .container3 {
@@ -212,7 +213,7 @@ $a-tags-hover: 'a:active, a:hover';
 }
 
 .container4 {
-  background-color: #FFC4BA;
+  background-color: #D0D3C5;
   //height: 160px;
   height: 800px;
 
@@ -310,7 +311,7 @@ $a-tags-hover: 'a:active, a:hover';
 ///Resume
 .introresume {
   font-size: 20px;
-  background-color: tomato;
+  background-color: #08708A;
   color: white;
   position: fixed;
   width: 100%;
@@ -407,7 +408,7 @@ $a-tags-hover: 'a:active, a:hover';
 font-size: 20px;
 padding-top: 15px;
 padding-bottom: 20px;
-background-color: #FFC4BA;
+background-color: tomato;
 color: white;
 width: 100%;
   a{
@@ -500,7 +501,7 @@ width: 100%;
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: #08708A;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -509,11 +510,11 @@ width: 100%;
 }
 
 .mail {
-  background: tomato;
+  background: #08708A;
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: #08708A;
   left: 200px;
 
 }
@@ -548,7 +549,7 @@ width: 100%;
   display: flex;
   align-items: center;
     h1{
-      color: tomato;
+      color: #08708A;
       font-style: oblique;
       font-weight: bold;
       font-size: 50px;
@@ -572,13 +573,13 @@ width: 100%;
   align-items: center;
     li {
       font-size: 40px;
-      color: tomato;
+      color: #08708A;
     }
 }
 
 .contactfoot {
 
-  background: #8C1500;
+  background: #032B2F;
   color: white;
   text-align: center;
   height: 100px;
