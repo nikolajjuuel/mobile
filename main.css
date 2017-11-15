@@ -1,12 +1,12 @@
 nav {
   color: white;
-  font-size: 35px;
+  font-size: 45px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #FFC4BA; }
   nav a {
-    color: #D9391C;
+    color: white;
     text-decoration: none; }
 
 header {
@@ -61,7 +61,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white; }
+  background-color: tomato; }
   .resume li {
     margin-top: 3px; }
 
@@ -75,7 +75,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white; }
+  background-color: tomato; }
   .contact li {
     margin-top: 3px; }
 
@@ -89,9 +89,19 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white; }
+  background-color: tomato; }
   .blog li {
     margin-top: 3px; }
+
+.follow1 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: orange; }
+  .follow1 a {
+    text-decoration: none;
+    font-size: 40px;
+    color: tomato; }
 
 .followtext {
   padding-top: 8px;
@@ -101,6 +111,7 @@ li {
   background-color: tomato;
   text-align: left;
   display: flex;
+  flex-direction: row;
   justify-content: space-between; }
   .followtext h2 {
     font-style: italic;
@@ -280,6 +291,13 @@ li {
   background-color: #FFC4BA;
   color: white;
   width: 100%; }
+  .subject a {
+    text-transform: capitalize;
+    font-family: 'Ovo', serif;
+    font-style: italic;
+    padding-left: 60px;
+    font-size: 60px;
+    color: white; }
   .subject h1 {
     text-transform: capitalize;
     font-family: 'Ovo', serif;
