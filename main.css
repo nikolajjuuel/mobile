@@ -320,14 +320,18 @@ li {
 
 .map {
   position: absolute;
-  top: 260px;
+  top: 250px;
   right: 60px; }
 
 .phone {
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background-color: tomato; }
+  background-color: tomato;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
 
 .mail {
   background: tomato;
@@ -353,10 +357,28 @@ li {
     padding-top: 5px;
     padding-bottom: 10px; }
 
-.phone {
+.locationflow {
+  display: flex;
+  align-items: center; }
+  .locationflow h1 {
+    color: tomato;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 30px; }
+
+.location {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  background-color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
+  .location li {
+    font-size: 40px;
+    color: tomato; }
 
 /*# sourceMappingURL=main.css.map */
