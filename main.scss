@@ -219,7 +219,7 @@ $dark: #032B2F;
 }
 
 .container4 {
-  background-color: #D0D3C5;
+  background-color: $light;
   //height: 160px;
   height: 800px;
 
@@ -438,16 +438,23 @@ width: 100%;
 
 }
 
+.minsubject {
+  background-color: $light;
+
+    h2{
+      font-size: 30px;
+      font-family: 'Nixie One', cursive;
+      text-align: center;
+
+
+    }
+}
+
 .opacity {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
   position: relative;
 
-
-
     li{
-      font-size: 30px;
+      font-size: 40px;
       font-family: 'Libre Baskerville', serif;
       padding-top: 20px;
       padding-bottom: 20px;
@@ -466,35 +473,35 @@ width: 100%;
 
 }
 .back {
+
   img {
-    width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    width: 100%;
+
   }
 
 }
+
+
 .content {
   position: absolute;
   top: 10%;
 
   li{
     text-align: left;
-    font-size: 25px;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
 
   }
 }
-
-
 .content2{
   position: absolute;
   top: 30%;
 
   li{
     text-align: left;
-    font-size: 25px;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
   }
@@ -506,10 +513,8 @@ width: 100%;
 
   li{
     text-align: left;
-    font-size: 25px;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
-
   }
 
 }
@@ -520,13 +525,98 @@ width: 100%;
 
   li{
     text-align: left;
-    font-size: 25px;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
-
   }
-
 }
+
+.content5{
+  position: absolute;
+  top: 4%;
+
+  li{
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+  }
+}
+
+.content6{
+  position: absolute;
+  top: 6.5%;
+
+  li{
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+  }
+}
+
+
+.content7{
+  position: absolute;
+  top: 8.5%;
+
+  li{
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+  }
+}
+.content8{
+  position: absolute;
+  top: 10.5%;
+
+  li{
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+  }
+}
+.content9{
+  position: absolute;
+  top: 12.5%;
+
+  li{
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+  }
+}
+.content10{
+  position: absolute;
+  top: 14.5%;
+
+  li{
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+  }
+}
+.content11{
+  position: absolute;
+  top: 24%;
+
+  li{
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .experience {
