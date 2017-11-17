@@ -52,7 +52,7 @@ $dark: #032B2F;
 
         p{
         font-size: 30px;
-        position: absolute;
+        margin-top: 21px;
         text-align: center;
         bottom: 0;
         left: 250px;
@@ -792,18 +792,21 @@ width: 100%;
 }
 
 .blogpost{
-  height: 654px;
-  width: 100%;
-  background: salmon;
-  background-image: url("images/build.jpeg");
-  background-size: contain;
+  position: relative;
+  display: block;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+    img{
+      width: 100%
+    }
     h1{
       color: white;
       font-size: 90px;
+      position: absolute;
     }
 }
 
