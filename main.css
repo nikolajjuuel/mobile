@@ -517,7 +517,7 @@ li {
     color: black;
     top: 0;
     background-color: white;
-    opacity: .4;
+    opacity: .6;
     text-align: left; }
 
 .new {
@@ -533,8 +533,6 @@ li {
   margin-bottom: 20px;
   background-size: cover;
   background-position: center; }
-  .new1 li {
-    opacity: .7; }
 
 .new2 {
   padding-top: 20px;
@@ -548,8 +546,7 @@ li {
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 1%;
-    opacity: .6; }
+    margin-bottom: 1%; }
 
 .new3 {
   height: 630px;
@@ -558,7 +555,6 @@ li {
   background-size: cover;
   background-repeat: no-repeat; }
   .new3 li {
-    opacity: .6;
     text-align: left; }
 
 .blogpost {
