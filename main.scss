@@ -32,7 +32,7 @@ $dark: #032B2F;
       display: flex;
       justify-content: center;
       align-items: center;
-      z-index: 1;
+      z-index: 3;
         a {
           text-decoration: none;
           color: black;
@@ -46,6 +46,7 @@ $dark: #032B2F;
       background: $dark;
       height: 200px;
       color: white;
+      width: 100%;
       text-align: center;
       position: relative;
 
@@ -218,12 +219,7 @@ $dark: #032B2F;
 
 }
 
-.container4 {
-  background-color: $light;
-  //height: 160px;
-  height: 800px;
 
-}
 
 .words {
   padding-left: 50px;
@@ -322,6 +318,7 @@ $dark: #032B2F;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 
     h1 {
       font-style: oblique;
@@ -341,7 +338,7 @@ $dark: #032B2F;
   top: 80px;
   padding-right: 40px;
   right: 0;
-  z-index: 1;
+  z-index: 2;
     a{
       color: black;
       font-weight: bold;
@@ -410,6 +407,7 @@ $dark: #032B2F;
 
 
 .subject {
+margin-bottom: 20px;
 font-size: 20px;
 padding-top: 15px;
 padding-bottom: 20px;
@@ -475,12 +473,9 @@ width: 100%;
 .back {
 
   img {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-
-  }
+    max-width: 100%;
+    background-position: center;
+ }
 
 }
 
@@ -530,79 +525,6 @@ width: 100%;
   }
 }
 
-.content5{
-  position: absolute;
-  top: 4%;
-
-  li{
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-  }
-}
-
-.content6{
-  position: absolute;
-  top: 6.5%;
-
-  li{
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-  }
-}
-
-
-.content7{
-  position: absolute;
-  top: 8.5%;
-
-  li{
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-  }
-}
-.content8{
-  position: absolute;
-  top: 10.5%;
-
-  li{
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-  }
-}
-.content9{
-  position: absolute;
-  top: 12.5%;
-
-  li{
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-  }
-}
-.content10{
-  position: absolute;
-  top: 14.5%;
-
-  li{
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-  }
-}
-.content11{
-  position: absolute;
-  top: 24%;
-
-  li{
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-  }
-}
 
 
 
@@ -756,6 +678,14 @@ width: 100%;
     }
 }
 
+.contactspace {
+  background-color: $light;
+  //height: 160px;
+  height: 800px;
+
+}
+
+
 .contactfoot {
 
   background: #032B2F;
@@ -771,6 +701,111 @@ width: 100%;
 
 
 
+
+
+
+///new
+
+.newdis{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+    h1 {
+      font-size: 40px;
+      color: white;
+      text-align: center;
+    }
+    li {
+         font-size: 40px;
+         font-family: 'Libre Baskerville', serif;
+         padding-left: 20px;
+         padding-bottom: 20px;
+         margin-top: 5%;
+         margin-left: 10%;
+         margin-right: 10%;
+         margin-bottom: 1%;
+         color: black;
+         top: 0;
+         background-color: white;
+         opacity: .4;
+         text-align: left;
+
+     }
+}
+.new {
+  margin-bottom: 20px;
+  height: 1150px;
+  width: 900px;
+  background-image: url("images/mountain.png");
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.new1 {
+  height: 800px;
+  width: 900px;
+  margin-bottom: 20px;
+  background-image: url("images/ice.jpg");
+  background-size: cover;
+  background-position: center;
+  li{
+    opacity: .7;
+  }
+
+}
+.new2 {
+  padding-top: 20px;
+  height: 600px;
+  width: 900px;
+  margin-bottom: 20px;
+  background-color: pink;
+  background-image: url("images/capu.jpg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-position: center;
+    li{
+      margin-top: 2%;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 1%;
+      opacity: .6;
+    }
+
+}
+
+.new3 {
+  height: 630px;
+  width: 900px;
+  margin-bottom: 20px;
+  background-color: orange;
+  background-image: url("images/build.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+    li{
+      opacity: .6;
+      text-align: left;
+    }
+
+}
+
+.blogpost{
+  height: 654px;
+  width: 100%;
+  background: salmon;
+  background-image: url("images/build.jpeg");
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    h1{
+      color: white;
+      font-size: 90px;
+    }
+}
 
 ///tablet
 @media screen and (min-width:600px) {
