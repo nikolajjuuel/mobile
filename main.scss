@@ -737,7 +737,6 @@ width: 100%;
      }
 }
 .new {
-  margin-bottom: 20px;
   height: 1150px;
   width: 900px;
   background-position: center;
@@ -781,40 +780,17 @@ width: 100%;
     li{
       text-align: left;
     }
-
 }
-
-.blogpost{
-  position: relative;
-  display: block;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    img{
-      width: 100%
-    }
-    h1{
-      color: white;
-      font-size: 90px;
-      position: absolute;
-    }
-}
-
-
 
 
 //blogpost
+
 .posts {
-  margin-top: 20px;
-  margin-bottom: 20px;
   display: flex;
-  flex-flow: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-
+  background-color: $light;
     h1 {
       font-size: 80px;
     }
@@ -871,13 +847,27 @@ width: 100%;
   margin-bottom: 20px;
   height: 700px;
   width: 600px;
+  color: white;
   background-color: tomato;
+  background-image: url("images/grouse.jpg");
+  background-size: cover;
+  background-position: top;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .post4 {
+  margin-bottom: 20px;
   height: 700px;
   width: 600px;
   background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 ///tablet
