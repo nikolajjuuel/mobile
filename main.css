@@ -339,6 +339,19 @@ li {
   .text li {
     text-align: left; }
 
+.job {
+  color: #08708A;
+  font-weight: bold; }
+
+.date {
+  font-size: 10px;
+  align-items: center; }
+
+.company {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px; }
+
 .map {
   position: absolute;
   top: 230px;
