@@ -4,7 +4,6 @@ $light: #f4f2e9;
 $medium: #08708A;
 $dark: #032B2F;
 
-
 ///phone
     nav {
       color: white;
@@ -211,11 +210,14 @@ $dark: #032B2F;
 
 .container2 {
   padding-top: 100px;
-  background-color: #08708A;
+  width: 100%;
+  background-color: $medium;
 
 }
 .container3 {
-  padding-top: 72px;
+  width: 100%;
+  padding-top: 60px;
+  background-color: #90d2f5;
 
 }
 
@@ -311,19 +313,13 @@ $dark: #032B2F;
 
 ///Resume
 
-.resimg{
-  background-image: url("images/mountain.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-}
 
 .introresume {
   font-size: 20px;
+  width: 100%;
   background-color: #08708A;
   color: white;
   position: fixed;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   z-index: 1;
@@ -344,7 +340,7 @@ $dark: #032B2F;
   display: flex;
   position: absolute;
   top: 80px;
-  padding-right: 40px;
+  margin-right: 40px;
   right: 0;
   z-index: 2;
     a{
@@ -357,10 +353,7 @@ $dark: #032B2F;
 .home1 {
   height: 120px;
   width: 120px;
-
   border-radius: 50%;
-
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -409,27 +402,39 @@ $dark: #032B2F;
 
 
 
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
+}
 
 
 
 
 .subject {
+height: 60px;
+width: 80%;
+margin-top: 20px;
 margin-bottom: 20px;
-font-size: 20px;
-padding-top: 15px;
-padding-bottom: 20px;
-background-color: #90d2f5;
-color: white;
-width: 100%;
-  a{
+border-style: solid;
+border-width: medium;
+border-color: #90d2f5;
+border-radius: 5px;
+color: #90d2f5;
+display: flex;
+justify-content: center;
+align-items: center;
 
+
+  a{
     text-transform: capitalize;
     font-family: 'Ovo', serif;
     font-style: italic;
     padding-left: 60px;
     font-size: 60px;
-    color: white;
+    color: #90d2f5;
 
 
   }
@@ -438,161 +443,22 @@ width: 100%;
     font-size: 40px;
     font-family: 'Nixie One', cursive;
     font-weight: bolder;
-    padding-left: 60px;
 
-  }
-
-}
-
-.minsubject {
-  background-color: $light;
-
-    h2{
-      font-size: 30px;
-      font-family: 'Nixie One', cursive;
-      text-align: center;
-
-
-    }
-}
-
-.opacity {
-  position: relative;
-
-    li{
-      font-size: 40px;
-      font-family: 'Libre Baskerville', serif;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 20px;
-      padding-bottom: 20px;
-      margin-top: 5%;
-      margin-left: 10%;
-      margin-right: 10%;
-      margin-bottom: 1%;
-      color: black;
-      top: 0;
-      background-color: white;
-      opacity: .8;
-      text-align: left;
-    }
-
-}
-.back {
-
-  img {
-    max-width: 100%;
-    background-position: center;
- }
+   }
 
 }
 
 
-.content {
-  position: absolute;
-  top: 10%;
+.text {
+  width: 90%;
+  font-size: 16px;
 
   li{
     text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-
-  }
-}
-.content2{
-  position: absolute;
-  top: 30%;
-
-  li{
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-  }
-
-}
-.content3{
-  position: absolute;
-  top: 50%;
-
-  li{
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-  }
-
-}
-
-.content4{
-  position: absolute;
-  top: 70%;
-
-  li{
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.experience {
-
-    h2{
-      font-size: 25px;
-      font-family: "Ovo", sans-serif;
-    }
-    li{
-      text-align: left;
-      font-family: 'Muli', sans-serif;
-  }
-}
-.education {
-    h2{
-      font-size: 25px;
-      font-family: "Ovo", sans-serif;
-    }
-    li{
-      text-align: left;
-      font-family: 'Muli', sans-serif;
-
-    }
-}
-.volunteer {
-    h2{
-      font-size: 25px;
-      font-family: "Ovo", sans-serif;
-    }
-    li{
-      text-align: left;
-      font-family: 'Muli', sans-serif;
-
-    }
-}
-.skills {
-    h2{
-      font-size: 25px;
-      font-family: "Ovo", sans-serif;
-    }
-    li{
-      text-align: left;
-      font-family: 'Muli', sans-serif;
-
-    }
-}
+///Resume stop
 
 
 
@@ -712,75 +578,6 @@ width: 100%;
 
 
 
-///new
-
-.newdis{
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  justify-content: center;
-    h1 {
-      font-size: 40px;
-      color: white;
-      text-align: center;
-    }
-    li {
-         font-size: 40px;
-         font-family: 'Libre Baskerville', serif;
-
-         color: black;
-         top: 0;
-         background-color: white;
-         opacity: .6;
-         text-align: left;
-
-     }
-}
-.new {
-  height: 1150px;
-  width: 900px;
-  background-position: center;
-  background-size: cover;
-
-
-}
-
-.new1 {
-  height: 800px;
-  width: 900px;
-  margin-bottom: 20px;
-  background-size: cover;
-  background-position: center;
-
-
-}
-.new2 {
-  padding-top: 20px;
-  height: 600px;
-  width: 900px;
-  margin-bottom: 20px;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  background-position: center;
-    li{
-      margin-top: 2%;
-      margin-left: 10%;
-      margin-right: 10%;
-      margin-bottom: 1%;
-    }
-
-}
-
-.new3 {
-  height: 630px;
-  width: 900px;
-  margin-bottom: 20px;
-  background-size: cover;
-  background-repeat: no-repeat;
-    li{
-      text-align: left;
-    }
-}
 
 
 //blogpost

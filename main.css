@@ -156,10 +156,13 @@ li {
 
 .container2 {
   padding-top: 100px;
+  width: 100%;
   background-color: #08708A; }
 
 .container3 {
-  padding-top: 72px; }
+  width: 100%;
+  padding-top: 60px;
+  background-color: #90d2f5; }
 
 .words {
   padding-left: 50px;
@@ -227,18 +230,12 @@ li {
   .circle3 a {
     font-size: 50px; }
 
-.resimg {
-  background-image: url("images/mountain.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right; }
-
 .introresume {
   font-size: 20px;
+  width: 100%;
   background-color: #08708A;
   color: white;
   position: fixed;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   z-index: 1; }
@@ -256,7 +253,7 @@ li {
   display: flex;
   position: absolute;
   top: 80px;
-  padding-right: 40px;
+  margin-right: 40px;
   right: 0;
   z-index: 2; }
   .nav1 a {
@@ -305,116 +302,42 @@ li {
     margin-top: 1px;
     font-size: 30px; }
 
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
 .subject {
+  height: 60px;
+  width: 80%;
+  margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 20px;
-  padding-top: 15px;
-  padding-bottom: 20px;
-  background-color: #90d2f5;
-  color: white;
-  width: 100%; }
+  border-style: solid;
+  border-width: medium;
+  border-color: #90d2f5;
+  border-radius: 5px;
+  color: #90d2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .subject a {
     text-transform: capitalize;
     font-family: 'Ovo', serif;
     font-style: italic;
     padding-left: 60px;
     font-size: 60px;
-    color: white; }
+    color: #90d2f5; }
   .subject h1 {
     font-size: 40px;
     font-family: 'Nixie One', cursive;
-    font-weight: bolder;
-    padding-left: 60px; }
+    font-weight: bolder; }
 
-.minsubject {
-  background-color: #f4f2e9; }
-  .minsubject h2 {
-    font-size: 30px;
-    font-family: 'Nixie One', cursive;
-    text-align: center; }
-
-.opacity {
-  position: relative; }
-  .opacity li {
-    font-size: 40px;
-    font-family: 'Libre Baskerville', serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 1%;
-    color: black;
-    top: 0;
-    background-color: white;
-    opacity: .8;
+.text {
+  width: 90%;
+  font-size: 16px; }
+  .text li {
     text-align: left; }
-
-.back img {
-  max-width: 100%;
-  background-position: center; }
-
-.content {
-  position: absolute;
-  top: 10%; }
-  .content li {
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold; }
-
-.content2 {
-  position: absolute;
-  top: 30%; }
-  .content2 li {
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold; }
-
-.content3 {
-  position: absolute;
-  top: 50%; }
-  .content3 li {
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold; }
-
-.content4 {
-  position: absolute;
-  top: 70%; }
-  .content4 li {
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold; }
-
-.experience h2 {
-  font-size: 25px;
-  font-family: "Ovo", sans-serif; }
-.experience li {
-  text-align: left;
-  font-family: 'Muli', sans-serif; }
-
-.education h2 {
-  font-size: 25px;
-  font-family: "Ovo", sans-serif; }
-.education li {
-  text-align: left;
-  font-family: 'Muli', sans-serif; }
-
-.volunteer h2 {
-  font-size: 25px;
-  font-family: "Ovo", sans-serif; }
-.volunteer li {
-  text-align: left;
-  font-family: 'Muli', sans-serif; }
-
-.skills h2 {
-  font-size: 25px;
-  font-family: "Ovo", sans-serif; }
-.skills li {
-  text-align: left;
-  font-family: 'Muli', sans-serif; }
 
 .map {
   position: absolute;
@@ -495,60 +418,6 @@ li {
   .contactfoot p {
     padding-top: 30px;
     font-size: 30px; }
-
-.newdis {
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .newdis h1 {
-    font-size: 40px;
-    color: white;
-    text-align: center; }
-  .newdis li {
-    font-size: 40px;
-    font-family: 'Libre Baskerville', serif;
-    color: black;
-    top: 0;
-    background-color: white;
-    opacity: .6;
-    text-align: left; }
-
-.new {
-  height: 1150px;
-  width: 900px;
-  background-position: center;
-  background-size: cover; }
-
-.new1 {
-  height: 800px;
-  width: 900px;
-  margin-bottom: 20px;
-  background-size: cover;
-  background-position: center; }
-
-.new2 {
-  padding-top: 20px;
-  height: 600px;
-  width: 900px;
-  margin-bottom: 20px;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  background-position: center; }
-  .new2 li {
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 1%; }
-
-.new3 {
-  height: 630px;
-  width: 900px;
-  margin-bottom: 20px;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  .new3 li {
-    text-align: left; }
 
 .posts {
   display: flex;
