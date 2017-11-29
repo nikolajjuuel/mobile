@@ -4,7 +4,7 @@ nav {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #f4f2e9; }
+  background-color: white; }
   nav a {
     color: white;
     text-decoration: none; }
@@ -139,7 +139,6 @@ li {
   padding-right: 50px;
   padding-bottom: 25px;
   padding-left: 50px;
-  background-color: #f4f2e9;
   display: flex;
   justify-content: center; }
   .circleimg img {
@@ -148,7 +147,7 @@ li {
     border-radius: 50%; }
 
 .container {
-  background-color: #f4f2e9; }
+  background-color: white; }
 
 .container1 {
   background-color: #D0D3C5;
@@ -162,7 +161,7 @@ li {
 .container3 {
   width: 100%;
   padding-top: 60px;
-  background-color: #90d2f5; }
+  background-color: white; }
 
 .words {
   padding-left: 50px;
@@ -265,6 +264,9 @@ li {
   height: 120px;
   width: 120px;
   border-radius: 50%;
+  border-style: dotted;
+  border-width: thin;
+  border-color: #08708A;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -280,6 +282,9 @@ li {
   margin-left: 50px;
   margin-right: 50px;
   border-radius: 50%;
+  border-style: dotted;
+  border-width: thin;
+  border-color: #08708A;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -293,6 +298,9 @@ li {
   height: 120px;
   width: 120px;
   border-radius: 50%;
+  border-style: dotted;
+  border-width: thin;
+  border-color: #08708A;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -306,9 +314,11 @@ li {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background-color: white; }
 
 .subject {
+  font-weight: bold;
   height: 60px;
   width: 80%;
   margin-top: 20px;
@@ -318,6 +328,7 @@ li {
   border-color: #90d2f5;
   border-radius: 5px;
   color: #90d2f5;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -329,9 +340,9 @@ li {
     font-size: 60px;
     color: #90d2f5; }
   .subject h1 {
-    font-size: 40px;
-    font-family: 'Nixie One', cursive;
-    font-weight: bolder; }
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: bold; }
 
 .text {
   width: 90%;
@@ -420,7 +431,7 @@ li {
     color: #08708A; }
 
 .contactspace {
-  background-color: #f4f2e9;
+  background-color: white;
   height: 800px; }
 
 .contactfoot {
@@ -437,7 +448,7 @@ li {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  background-color: #f4f2e9; }
+  background-color: white; }
   .posts h1 {
     font-size: 80px; }
 
