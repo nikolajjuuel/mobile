@@ -164,11 +164,11 @@ li {
   background-color: white; }
 
 .words {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 16px; }
-  .words p {
-    font-size: 25px; }
+  margin-left: 30px;
+  margin-right: 30px; }
+  .words li {
+    padding-bottom: 60px;
+    text-align: left; }
 
 .buttons {
   display: flex;
@@ -317,8 +317,15 @@ li {
   align-items: center;
   background-color: white; }
   .box li {
-    padding-top: 2px;
-    padding-bottom: 2px; }
+    padding-top: 5px;
+    padding-bottom: 5px; }
+
+.sum {
+  width: 90%; }
+  .sum li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left; }
 
 .subject {
   font-weight: bold;
@@ -330,7 +337,7 @@ li {
   border-width: medium;
   border-color: #90d2f5;
   border-radius: 5px;
-  color: #90d2f5;
+  color: #08708A;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -462,6 +469,20 @@ li {
   .contactfoot p {
     padding-top: 30px;
     font-size: 30px; }
+
+.content {
+  visibility: hidden;
+  height: 1px;
+  width: 1px;
+  transition: width 1s linear; }
+
+#content:target {
+  visibility: visible;
+  display: inline;
+  width: 80%;
+  height: auto; }
+  #content:target h2 {
+    padding-bottom: 20px; }
 
 .posts {
   display: flex;
