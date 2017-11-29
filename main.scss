@@ -417,6 +417,10 @@ $dark: #032B2F;
   align-items: center;
   background-color: white;
 
+    li{
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
 }
 
 
@@ -472,6 +476,9 @@ align-items: center;
 .job {
   color: $medium;
   font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
 }
 
 .date {
@@ -564,6 +571,9 @@ align-items: center;
 .location {
   height: 80px;
   width: 80px;
+  border-style: solid;
+  border-width: none;
+  border-color: $medium;
   margin-bottom: 8px;
   border-radius: 50%;
   background-color: white;
