@@ -356,17 +356,29 @@ li {
 .job {
   color: #08708A;
   font-weight: bold;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 5px; }
-
-.date {
-  font-size: 10px;
-  align-items: center; }
 
 .company {
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 13px; }
+  font-size: 16px; }
+
+.worklocation {
+  font-size: 14px; }
+
+.date {
+  font-size: 12px;
+  align-items: center; }
+
+.skill {
+  width: 90%;
+  font-size: 14px;
+  color: #08708A; }
+  .skill li {
+    display: inline;
+    padding-left: 5px;
+    font-weight: bold; }
 
 .map {
   position: absolute;
