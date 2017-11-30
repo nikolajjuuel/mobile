@@ -646,14 +646,12 @@ align-items: center;
 //blogpost
 
 .content {
+  display: none;
   visibility: hidden;
-  height: 1px;
-  width: 1px;
-  transition: width .3s linear;
   }
 
 
-#content:target {
+#lions:target {
   visibility: visible;
   display: inline;
   width: 80%;
@@ -665,6 +663,32 @@ align-items: center;
     }
 }
 
+#wedegemont:target {
+  visibility: visible;
+  display: inline;
+  width: 80%;
+  height: auto;
+
+    h2{
+      padding-bottom: 20px;
+
+    }
+}
+#nakusp:target {
+  visibility: visible;
+  display: inline;
+  width: 80%;
+  height: auto;
+
+    h2{
+      padding-bottom: 20px;
+
+    }
+
+}
+
+
+
 
 .posts {
   display: flex;
@@ -672,9 +696,14 @@ align-items: center;
   justify-content: center;
   align-items: center;
   background-color: white;
+
     h1 {
       font-size: 80px;
     }
+    a{
+      text-decoration: none;
+      color: purple;
+      }
 }
 .post {
   margin-bottom: 20px;

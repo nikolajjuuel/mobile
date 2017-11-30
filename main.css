@@ -471,17 +471,31 @@ li {
     font-size: 30px; }
 
 .content {
-  visibility: hidden;
-  height: 1px;
-  width: 1px;
-  transition: width .3s linear; }
+  display: none;
+  visibility: hidden; }
 
-#content:target {
+#lions:target {
   visibility: visible;
   display: inline;
   width: 80%;
   height: auto; }
-  #content:target h2 {
+  #lions:target h2 {
+    padding-bottom: 20px; }
+
+#wedegemont:target {
+  visibility: visible;
+  display: inline;
+  width: 80%;
+  height: auto; }
+  #wedegemont:target h2 {
+    padding-bottom: 20px; }
+
+#nakusp:target {
+  visibility: visible;
+  display: inline;
+  width: 80%;
+  height: auto; }
+  #nakusp:target h2 {
     padding-bottom: 20px; }
 
 .posts {
@@ -492,6 +506,9 @@ li {
   background-color: white; }
   .posts h1 {
     font-size: 80px; }
+  .posts a {
+    text-decoration: none;
+    color: purple; }
 
 .post {
   margin-bottom: 20px;
