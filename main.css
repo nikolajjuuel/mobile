@@ -146,6 +146,9 @@ li {
     width: 500px;
     border-radius: 50%; }
 
+#pcpic {
+  display: none; }
+
 .container {
   background-color: white; }
 
@@ -498,6 +501,14 @@ li {
   #nakusp:target h2 {
     padding-bottom: 20px; }
 
+#grind:target {
+  visibility: visible;
+  display: inline;
+  width: 80%;
+  height: auto; }
+  #grind:target h2 {
+    padding-bottom: 20px; }
+
 .posts {
   display: flex;
   flex-direction: column-reverse;
@@ -508,7 +519,7 @@ li {
     font-size: 80px; }
   .posts a {
     text-decoration: none;
-    color: purple; }
+    color: white; }
 
 .post {
   margin-bottom: 20px;
@@ -578,5 +589,107 @@ li {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+@media (min-width: 1025px) {
+  #pcpic {
+    display: none; }
+
+  #mobilepic {
+    display: none; }
+
+  nav {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 400px;
+    flex-wrap: nowrap;
+    background-color: white; }
+    nav a {
+      color: white;
+      text-decoration: none; }
+
+  .nav {
+    width: 100%;
+    background-image: url("images/pic1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: auto; }
+
+  .intro h1 {
+    font-size: 40px; }
+  .intro h2 {
+    font-size: 20px; }
+
+  .resume {
+    height: 60px;
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #08708A;
+    position: fixed;
+    left: 250;
+    z-index: 1; }
+    .resume a {
+      font-size: 30px; }
+
+  .contact {
+    height: 60px;
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #08708A;
+    position: fixed;
+    left: 1000px; }
+    .contact a {
+      font-size: 30px; }
+
+  .blog {
+    height: 60px;
+    width: 600px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #08708A;
+    position: fixed;
+    left: 500px; }
+    .blog a {
+      font-size: 30px; }
+
+  .blog:hover {
+    opacity: .5; }
+
+  .contact:hover {
+    opacity: .5; }
+
+  .resume:hover {
+    opacity: .5; }
+
+  .container2 {
+    display: none; }
+
+  #resumelogo {
+    display: none; }
+
+  #bloglogo {
+    display: none; }
+
+  #contactlogo {
+    display: none; }
+
+  .posts {
+    display: flex;
+    flex-flow: row; } }
 
 /*# sourceMappingURL=main.css.map */

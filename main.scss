@@ -198,6 +198,9 @@ $dark: #032B2F;
 
 }
 
+#pcpic {
+display: none;}
+
 .container {
   background-color: white;
 }
@@ -687,6 +690,17 @@ align-items: center;
 
 }
 
+#grind:target {
+  visibility: visible;
+  display: inline;
+  width: 80%;
+  height: auto;
+
+    h2{
+      padding-bottom: 20px;
+
+    }
+}
 
 
 
@@ -702,7 +716,7 @@ align-items: center;
     }
     a{
       text-decoration: none;
-      color: purple;
+      color: white;
       }
 }
 .post {
@@ -789,4 +803,194 @@ align-items: center;
 ///desktop
 @media (min-width:1025px) {
 
+
+
+//home page
+
+
+#pcpic {
+display: none;
 }
+#mobilepic {
+  display: none;
+}
+
+
+nav {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 400px;
+  flex-wrap: nowrap;
+  background-color: white;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+}
+
+.nav {
+  width: 100%;
+  background-image: url("images/pic1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  width: auto;
+
+}
+
+.intro {
+
+  h1 {
+    font-size: 40px;
+  }
+  h2{
+    font-size: 20px;
+  }
+}
+
+
+.resume {
+  height: 60px;
+  width: 200px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: $medium;
+  position: fixed;
+  left: 250;
+  z-index: 1;
+
+  a {
+    font-size: 30px;
+  }
+}
+.contact {
+  height: 60px;
+  width: 200px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: $medium;
+  position: fixed;
+  left: 1000px;
+
+  a {
+    font-size: 30px;
+  }
+
+}
+.blog {
+  height: 60px;
+  width: 600px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: $medium;
+  position: fixed;
+  left: 500px;
+  a {
+    font-size: 30px;
+  }
+
+}
+
+.blog:hover{
+  opacity: .5;
+}
+.contact:hover{
+  opacity: .5;
+}
+.resume:hover{
+  opacity: .5;
+}
+
+
+
+
+
+
+.container2 {
+  display: none;
+}
+
+#resumelogo {
+  display: none;
+}
+#bloglogo {
+  display: none;
+}
+#contactlogo {
+  display: none;
+}
+
+.posts {
+
+  display: flex;
+  flex-flow: row;
+}
+
+
+
+//resume start stylesheet
+
+
+//resume end style
+
+
+
+
+
+
+
+
+
+
+
+//Contact styling started
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//contact styling and
+
+
+
+
+}
+
+
+
+
+//blog styling start
+
+
+
+
+
+
+
+
+//blog styling end
