@@ -1,5 +1,10 @@
 $a-tags: 'a, a:active, a:hover, a:visited';
 $a-tags-hover: 'a:active, a:hover';
+
+@import url('https://fonts.googleapis.com/css?family=Gravitas+One');
+
+
+
 $light: #f4f2e9;
 $medium: #08708A;
 $dark: #032B2F;
@@ -66,7 +71,28 @@ $dark: #032B2F;
       text-align: center;
     }
 
+#target {
+  a{
+    color: $medium;
+  }
+}
 
+.navweb {
+  display: none;
+}
+
+.hello {
+  display: none;
+}
+.attributes {
+  display: none;
+    li{
+      margin-top: 10px;
+      padding-left: 20px;
+      font-size: 30px;
+      color: white;
+    }
+}
 .intro {
   font-size: 20px;
   background-color: $medium;
@@ -87,6 +113,13 @@ $dark: #032B2F;
       padding-left: 55px;
 
     }
+}
+.introduction {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  height: 20px;
+
 }
 .resume {
   height: 300px;
@@ -175,6 +208,7 @@ $dark: #032B2F;
    h2{
       font-style: italic;
       font-weight: bold;
+
     }
 
 
@@ -226,13 +260,21 @@ display: none;}
 
 
 .words {
-  margin-left: 30px;
-  margin-right: 30px;
-
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
     li{
-      padding-bottom: 60px;
       text-align: left;
+      display: inline;
+      padding-top: 0px;
+      padding-bottom: 0px;
     }
+}
+
+
+
+.wordspc {
+  display: none;
 }
 
 
@@ -808,19 +850,12 @@ align-items: center;
 //home page
 
 
-#pcpic {
-display: none;
-}
-#mobilepic {
-  display: none;
-}
 
 
 nav {
   color: white;
   display: flex;
   justify-content: flex-start;
-  padding-left: 400px;
   flex-wrap: nowrap;
   background-color: white;
     a{
@@ -829,99 +864,135 @@ nav {
     }
 }
 
-.nav {
-  width: 100%;
-  background-image: url("images/pic1.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 900px;
-  width: auto;
+header {
+  height: 40px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
 
+  a{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+.hello{
+  display: flex;
+  font-family: 'Gravitas One', cursive;
+}
+.attributes{
+  display: flex;
+}
+
+
+.navweb {
+  display: flex;
+  text-transform: capitalize;
+
+  a{
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: $medium;
+  }
+}
+.blogweb {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .intro {
+  display: none;
+}
 
-  h1 {
-    font-size: 40px;
-  }
-  h2{
-    font-size: 20px;
-  }
+.circleimg {
+  justify-content: flex-start;
+}
+
+.words {
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 5px;
+
+    li{
+      display: inline;
+    }
 }
 
 
-.resume {
-  height: 60px;
-  width: 200px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  border-radius: 5px;
+.nikolaj {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
   align-items: center;
-  background-color: $medium;
-  position: fixed;
-  left: 250;
-  z-index: 1;
-
-  a {
-    font-size: 30px;
-  }
-}
-.contact {
-  height: 60px;
-  width: 200px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  background-color: $medium;
-  position: fixed;
-  left: 1000px;
-
-  a {
+  a{
     font-size: 30px;
   }
 
-}
-.blog {
-  height: 60px;
-  width: 600px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  background-color: $medium;
-  position: fixed;
-  left: 500px;
-  a {
-    font-size: 30px;
+  a:hover{
+    color: #a8a8a8;
   }
 
+  li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-.blog:hover{
-  opacity: .5;
+.container1 {
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 15px;
+  height: 100px;
+  max-width: auto;
+  background-color: #ffd281;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+    h1{
+    font-size: 110px;
+    color: white;
+    }
 }
-.contact:hover{
-  opacity: .5;
-}
-.resume:hover{
-  opacity: .5;
-}
-
-
-
-
-
 
 .container2 {
   display: none;
 }
+.resume {
+  display: none;
+}
+.contact {
+  display: none;
+
+}
+.blog {
+  display: none;
+
+}
+
+.container {
+  background-color: #ffe4b4;
+  display: flex;
+  justify-content: flex-start;
+
+    li{
+      padding-top: 0px;
+      padding-bottom: 0px;
+
+     }
+}
+
+
+
+
+
+
+
 
 #resumelogo {
   display: none;
@@ -940,9 +1011,26 @@ nav {
 }
 
 
+.followtext{
+  background: #ffb735;
+}
+
+footer {
+
+}
+
 
 //resume start stylesheet
 
+.nav1 {
+  display: none;
+}
+
+.introresume {
+  display: none;
+}
+.container1 {
+}
 
 //resume end style
 
