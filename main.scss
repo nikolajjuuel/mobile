@@ -836,13 +836,13 @@ align-items: center;
   align-items: center;
 
 }
-///tablet
+/////////////////////////////tablet////////////////////////////////////////
 @media screen and (min-width:600px) {
 }
 
 
 
-///desktop
+////////////////////desktop ////////////////////////////////////////////////
 @media (min-width:1025px) {
 
 
@@ -1031,6 +1031,16 @@ footer {
 }
 .container1 {
 }
+.container3 {
+  display: none;
+}
+
+
+.box {
+  max-width: 100px;
+  min-width: 100px;
+}
+
 
 //resume end style
 
