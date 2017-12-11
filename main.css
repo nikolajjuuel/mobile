@@ -44,9 +44,6 @@ li {
 #pcpic {
   display: none; }
 
-.link {
-  display: none; }
-
 .navweb {
   display: none; }
 
@@ -130,19 +127,21 @@ li {
   height: 100px;
   width: 100px;
   border-radius: 50%;
+  margin-right: 2px;
   display: flex;
   justify-content: center;
   align-items: center; }
 
 .follow1 {
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start; }
   .follow1 a {
     text-decoration: none;
     font-size: 50px;
-    color: #08708A; }
+    color: white; }
 
 .followtext {
   padding-top: 8px;
@@ -156,9 +155,11 @@ li {
     font-style: italic;
     font-weight: bold; }
 
-.link a {
-  font-size: 20px;
-  color: white; }
+.link {
+  display: none; }
+  .link a {
+    font-size: 20px;
+    color: white; }
 
 .link:hover a {
   color: tomato; }
@@ -266,6 +267,9 @@ span {
     color: white; }
   .circle3 a {
     font-size: 50px; }
+
+.foot {
+  background: black; }
 
 .introresume {
   font-size: 20px;
@@ -834,9 +838,6 @@ span {
     .followtext a {
       text-align: left; }
 
-  .foot {
-    background: black; }
-
   .follow {
     height: 50px;
     width: 50px;
@@ -846,6 +847,15 @@ span {
       font-size: 25px; }
 
   .follow:hover a {
-    color: tomato; } }
+    color: tomato; }
+
+  .follow1 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start; }
+
+  .link {
+    display: block; } }
 
 /*# sourceMappingURL=main.css.map */
