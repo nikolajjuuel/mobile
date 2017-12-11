@@ -28,8 +28,7 @@ header {
     color: black; }
 
 footer {
-  background: #08708A;
-  height: 200px;
+  background: #858585;
   color: white;
   width: 100%;
   text-align: center;
@@ -43,6 +42,9 @@ li {
   color: #08708A; }
 
 #pcpic {
+  display: none; }
+
+.link {
   display: none; }
 
 .navweb {
@@ -124,19 +126,19 @@ li {
     margin-top: 3px; }
 
 .follow {
-  background-color: white;
+  background-color: black;
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  margin-left: 30px;
   display: flex;
   justify-content: center;
   align-items: center; }
 
 .follow1 {
   display: flex;
-  flex-flow: row;
-  margin-bottom: 8px; }
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start; }
   .follow1 a {
     text-decoration: none;
     font-size: 50px;
@@ -144,16 +146,22 @@ li {
 
 .followtext {
   padding-top: 8px;
-  padding-left: 60px;
-  padding-right: 100px;
   font-size: 55px;
-  background-color: #08708A;
+  background-color: #858585;
   text-align: left;
   display: flex;
+  flex-flow: column;
   justify-content: space-between; }
   .followtext h2 {
     font-style: italic;
     font-weight: bold; }
+
+.link a {
+  font-size: 20px;
+  color: white; }
+
+.link:hover a {
+  color: tomato; }
 
 .circleimg {
   padding-top: 25px;
@@ -497,25 +505,47 @@ span {
 .footcontact {
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
   text-align: left; }
   .footcontact li {
-    display: inline;
+    display: inline-block;
     padding-left: 15px;
     padding-top: 20px; }
 
 .information {
+  padding-top: 10px;
   display: flex;
   justify-content: space-around; }
   .information h1 {
-    color: tomato;
+    color: white;
     font-size: 35px;
     text-transform: uppercase; }
   .information h2 {
-    color: tomato;
+    color: white;
     font-size: 20px; }
 
 .iconfoot {
-  font-size: 25px; }
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-start; }
+  .iconfoot a {
+    color: white; }
+  .iconfoot p {
+    font-size: 20px;
+    padding-top: 22px;
+    padding-left: 10px; }
+
+.mapfoot {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.followfoot {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 5px; }
 
 .content {
   display: none;
@@ -755,6 +785,12 @@ span {
       padding-top: 0px;
       padding-bottom: 0px; }
 
+  .information {
+    padding-left: 10%;
+    padding-right: 10%; }
+    .information h1 {
+      font-size: 23px; }
+
   #resumelogo {
     display: none; }
 
@@ -781,24 +817,33 @@ span {
     display: flex; }
 
   .followtext {
-    background-color: #08708A;
-    flex-flow: column; }
+    background-color: #858585;
+    flex-flow: column;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 30px;
+    align-items: flex-start; }
     .followtext h2 {
       font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
       display: flex;
       align-items: center;
       justify-content: center; }
+    .followtext a {
+      text-align: left; }
+
+  .foot {
+    background: black; }
 
   .follow {
     height: 50px;
-    width: 50px; }
+    width: 50px;
+    margin-right: 10px; }
     .follow a {
+      color: white;
       font-size: 25px; }
-
-  .follow1 {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
 
   .follow:hover a {
     color: tomato; } }
