@@ -193,8 +193,11 @@ li {
   padding-top: 60px;
   background-color: white; }
 
-.words li {
-  text-align: left; }
+.words {
+  padding-bottom: 20px; }
+  .words li {
+    text-align: left;
+    margin-top: 30px; }
 
 .welcome {
   padding-bottom: 20px; }
