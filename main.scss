@@ -49,20 +49,14 @@ $dark: #032B2F;
     }
 
     footer {
-      background: $dark;
+      background: $medium;
       height: 200px;
       color: white;
       width: 100%;
       text-align: center;
       position: relative;
 
-        p{
-        font-size: 30px;
-        margin-top: 21px;
-        text-align: center;
-        bottom: 0;
-        left: 250px;
-        }
+
     }
 
     body {
@@ -682,20 +676,48 @@ align-items: center;
 
 .contactfoot {
 
-  background: #032B2F;
   color: white;
-  text-align: center;
-  height: 100px;
 
-    p {
-      padding-top: 30px;
-      font-size: 30px;
+
+
+}
+
+.footcontact {
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+
+    li {
+      display: inline;
+      padding-left: 15px;
+      padding-top: 20px;
     }
 }
 
 
+.information {
+  display: flex;
+  justify-content: space-around;
 
+    h1{
+      color: tomato;
+      font-size: 35px;
+      text-transform: uppercase;
+    }
 
+    h2{
+      color: tomato;
+      font-size: 20px;
+    }
+}
+.iconfoot {
+  font-size: 25px;
+
+}
+
+.footmap {
+
+}
 
 
 
@@ -1057,15 +1079,7 @@ header {
 }
 
 
-.followtext{
-  background: #ffb735;
-}
 
-footer {
-
-height: 900px;
-
-}
 
 
 //resume start stylesheet
@@ -1090,9 +1104,10 @@ height: 900px;
 }
 
 .followtext {
-  background-color: tomato;
+  background-color: $medium;
   flex-flow: column;
     h2{
+      font-size: 30px;
       display: flex;
       align-items: center;
       justify-content: center;
