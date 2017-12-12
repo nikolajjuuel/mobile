@@ -766,9 +766,17 @@ align-items: center;
   overflow: hidden;
   height: 0px;
   width: 0px;
-  transition: width .2s; 
+  transition: width .2s;
   }
 
+#min {
+  #title {
+    display: none;
+  }
+  #lions {
+    display: none;
+  }
+}
 
 #lions:target {
   visibility: visible;
