@@ -543,6 +543,7 @@ span {
     padding-left: 10px; }
 
 .mapfoot {
+  display: none;
   margin-left: 15px;
   margin-right: 15px; }
 
@@ -695,6 +696,11 @@ span {
       justify-content: center;
       align-items: center; }
 
+  .mapfoot {
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px; }
+
   .hello {
     display: flex;
     font-family: 'Gravitas One', cursive; }
@@ -813,6 +819,13 @@ span {
 
   .nav1 {
     display: none; }
+
+  .subject {
+    margin-top: 70px; }
+
+  .sum {
+    padding-left: 40%;
+    padding-right: 40%; }
 
   .introresume {
     display: none; }
