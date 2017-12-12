@@ -762,13 +762,17 @@ align-items: center;
 //blogpost
 
 .content {
-  display: none;
   visibility: hidden;
+  overflow: hidden;
+  height: 0px;
+  width: 0px;
+  transition: width .2s; 
   }
 
 
 #lions:target {
   visibility: visible;
+  overflow: auto;
   display: inline;
   width: 80%;
   height: auto;
