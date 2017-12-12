@@ -739,7 +739,10 @@ align-items: center;
   justify-content: flex-start;
 
     a{
-    color: white;}
+    text-decoration: none;
+    color: white;
+
+  }
     p{
       font-size: 30px;
       padding-top: 22px;

@@ -536,6 +536,7 @@ span {
   display: flex;
   justify-content: flex-start; }
   .iconfoot a {
+    text-decoration: none;
     color: white; }
   .iconfoot p {
     font-size: 30px;
