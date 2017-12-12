@@ -378,6 +378,8 @@ span {
 
 .foot {
   background: black;
+
+
 }
 
 ///Resume
@@ -695,6 +697,8 @@ align-items: center;
 
 .contactfoot {
   color: white;
+
+
 }
 
 .footcontact {
@@ -707,6 +711,8 @@ align-items: center;
       padding-left: 15px;
       padding-top: 20px;
     }
+
+
 }
 
 
@@ -735,7 +741,7 @@ align-items: center;
     a{
     color: white;}
     p{
-      font-size: 20px;
+      font-size: 30px;
       padding-top: 22px;
       padding-left: 10px;
     }
@@ -769,13 +775,13 @@ align-items: center;
   transition: width .2s;
   }
 
+
+
+#min:target {
+}
+
 #min {
-  #title {
-    display: none;
-  }
-  #lions {
-    display: none;
-  }
+
 }
 
 #lions:target {
@@ -785,10 +791,12 @@ align-items: center;
   width: 80%;
   height: auto;
 
+
     h2{
       padding-bottom: 20px;
 
     }
+
 }
 
 #wedegemont:target {
@@ -969,6 +977,10 @@ header {
 
   }
 
+
+
+
+
 .hello{
   display: flex;
   font-family: 'Gravitas One', cursive;
@@ -1004,6 +1016,15 @@ header {
   align-items: center;
   justify-content: space-around;
 
+
+}
+
+
+
+.iconfoot {
+    p{
+      font-size: 20px;
+    }
 
 }
 
