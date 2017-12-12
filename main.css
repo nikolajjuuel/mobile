@@ -509,6 +509,8 @@ span {
 
 .contactfoot {
   color: white; }
+  .contactfoot a {
+    text-decoration: none; }
 
 .footcontact {
   display: flex;
@@ -736,6 +738,9 @@ span {
 
   .iconfoot p {
     font-size: 20px; }
+
+  .iconfoot:hover a {
+    color: tomato; }
 
   .circleimg {
     justify-content: flex-start;

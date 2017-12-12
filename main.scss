@@ -699,6 +699,12 @@ align-items: center;
 .contactfoot {
   color: white;
 
+  a{
+    text-decoration: none;
+
+  }
+
+
 
 }
 
@@ -1032,7 +1038,16 @@ header {
 
 }
 
+.iconfoot:hover {
 
+  a{
+    color: tomato;
+
+  }
+
+
+
+}
 
 .circleimg {
   justify-content: flex-start;
