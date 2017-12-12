@@ -526,11 +526,11 @@ align-items: center;
 
 
   a{
-    text-transform: capitalize;
-    font-family: 'Ovo', serif;
-    font-style: italic;
-    padding-left: 60px;
-    font-size: 60px;
+    text-decoration: none;
+    text-decoration: underline;
+    padding-left: 10px;
+    font-size: 50px;
+    letter-spacing: 6px;
     color: #90d2f5;
 
 
@@ -544,6 +544,7 @@ align-items: center;
    }
 
 }
+
 
 
 .text {
@@ -1195,6 +1196,19 @@ header {
 
 .subject {
   margin-top: 70px;
+
+  a{
+    font-size: 30px;
+  }
+
+}
+
+
+.subject:hover {
+  a {
+    color: $medium;
+
+  }
 }
 
 .box {

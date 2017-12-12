@@ -388,11 +388,11 @@ span {
   justify-content: center;
   align-items: center; }
   .subject a {
-    text-transform: capitalize;
-    font-family: 'Ovo', serif;
-    font-style: italic;
-    padding-left: 60px;
-    font-size: 60px;
+    text-decoration: none;
+    text-decoration: underline;
+    padding-left: 10px;
+    font-size: 50px;
+    letter-spacing: 6px;
     color: #90d2f5; }
   .subject h1 {
     font-size: 50px;
@@ -836,6 +836,11 @@ span {
 
   .subject {
     margin-top: 70px; }
+    .subject a {
+      font-size: 30px; }
+
+  .subject:hover a {
+    color: #08708A; }
 
   .box h1 {
     font-size: 26px; }
