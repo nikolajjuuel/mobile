@@ -823,9 +823,22 @@ span {
   .subject {
     margin-top: 70px; }
 
+  .box h1 {
+    font-size: 26px; }
+
+  li {
+    font-size: 20px; }
+
   .sum {
-    padding-left: 40%;
-    padding-right: 40%; }
+    width: 70%; }
+
+  .text {
+    width: 70%; }
+
+  .skill {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap; }
 
   .introresume {
     display: none; }
