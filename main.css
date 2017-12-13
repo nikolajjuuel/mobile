@@ -828,8 +828,36 @@ span {
     display: none; }
 
   .posts {
-    display: flex;
-    flex-flow: row; }
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; }
+
+  .post {
+    height: 600px;
+    width: 400px;
+    order: 4; }
+
+  .post1 {
+    height: 600px;
+    width: 400px;
+    order: 3; }
+
+  .post2 {
+    height: 600px;
+    width: 400px;
+    order: 2; }
+
+  .post3 {
+    height: 600px;
+    width: 400px;
+    order: 1; }
+
+  .post4 {
+    height: 600px;
+    width: 400px;
+    order: 0; }
 
   .nav1 {
     display: none; }
