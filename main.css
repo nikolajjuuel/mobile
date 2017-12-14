@@ -563,20 +563,21 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 6px; }
+  font-size: 30px;
+  margin-top: 8px; }
 
 .close {
   display: block;
   position: absolute;
   top: 0;
   right: 0;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   background-color: orange; }
 
 .content {
-  padding-top: 30px;
+  padding-top: 35px;
   position: relative;
   visibility: hidden;
   overflow: hidden;
@@ -859,7 +860,16 @@ span {
     display: block;
     position: absolute;
     top: 0;
-    right: 0; }
+    right: 0;
+    height: 30px;
+    width: 30px; }
+
+  #close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: -1px; }
 
   #lions {
     padding-top: 30px;
