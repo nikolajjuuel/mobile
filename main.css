@@ -559,6 +559,19 @@ span {
   padding-top: 10px;
   margin-bottom: 5px; }
 
+#close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px; }
+
+.close {
+  display: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: orange; }
+
 .content {
   visibility: hidden;
   overflow: hidden;
@@ -833,6 +846,40 @@ span {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center; }
+
+  .content {
+    position: absolute; }
+
+  .close {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+  #lions {
+    padding-top: 30px;
+    position: absolute;
+    bottom: 0;
+    background-color: tomato;
+    flex-flow: row-reverse; }
+
+  #nakusp {
+    position: absolute;
+    bottom: 0;
+    background-color: tomato;
+    flex-flow: row-reverse; }
+
+  #wedegemont {
+    position: absolute;
+    bottom: 0;
+    background-color: tomato;
+    flex-flow: row-reverse; }
+
+  #grind {
+    position: absolute;
+    bottom: 0;
+    background-color: tomato;
+    flex-flow: row-reverse; }
 
   .post {
     height: 600px;
