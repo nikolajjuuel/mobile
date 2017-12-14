@@ -785,7 +785,10 @@ align-items: center;
 }
 
 .close {
-  display: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -794,6 +797,8 @@ align-items: center;
 }
 
 .content {
+  padding-top: 30px;
+  position: relative;
   visibility: hidden;
   overflow: hidden;
   height: 0px;
